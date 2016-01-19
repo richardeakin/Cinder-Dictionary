@@ -80,6 +80,8 @@ class Dictionary {
 	size_t getSize() const  { return mData.size(); }
 	std::vector<std::string>	getAllKeys() const;
 
+	bool isEmpty() const		{ return mData.empty(); }
+
 	// TODO: implement
 	//std::string	toString() const;
 
